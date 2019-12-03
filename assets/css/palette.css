@@ -1,0 +1,58 @@
+.palette-inputs, .color-picker {
+  display: flex;
+}
+
+.palette-inputs .column {
+  flex-direction: column;
+}
+
+.palette-inputs .color-bar {
+  background-color: rgb(170, 170, 170);
+  height: 80px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+
+.color-picker {
+  flex-direction: row;
+}
+.color-picker .color-picker-bar {
+  background-color: rgb(170, 170, 170);
+  height: 30px;
+  width: 200px;
+  border-radius: 3px;
+  margin: 3px 3px 3px 15px;
+}
+
+#palettes {
+  display: flex;
+  flex-direction: column;
+}
+
+#palettes li {
+  list-style: none;
+  width: 60px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+#palettes li.palette-list-input {
+  list-style: none;
+  width: 85px;
+  margin: 0 3px 0 3px;
+}
+
+#palettes li.palette-list-item {
+  margin: 7px 0 0 0;
+}
+
+#palettes li.delete-palette {
+  width: 10px;
+  cursor: pointer;
+}
+
+ul.palette-list {
+  display: flex;
+  flex-direction: row;
+}
+

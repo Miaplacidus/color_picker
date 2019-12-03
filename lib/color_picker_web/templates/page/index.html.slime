@@ -1,0 +1,47 @@
+section.row
+  article.column
+    h2 Color Picker
+    .color-picker-error
+    .color-picker
+      input name="color-picker" type="text" placeholder="Enter RGB value, e.g. 123,456,789" /
+      .color-picker-bar 
+      
+
+    h2 Palettes 
+    #palettes
+      .palette-list-error
+      
+  article.column
+    h2 Palette Creator
+    .instructions Select 5 colors for your palette.
+    .palette-error
+
+    .palette-inputs
+      .column
+        .color-bar
+        .rgb-container
+          input name="rgb1" type="text" /
+          br/
+      .column
+        .color-bar
+        .rgb-container
+          input name="rgb2" type="text" /
+          br/
+      .column
+        .color-bar
+        .rgb-container
+          input name="rgb3" type="text" /
+          br/
+      .column
+        .color-bar
+        .rgb-container
+          input name="rgb4" type="text" /
+          br/
+      .column
+        .color-bar
+        .rgb-container
+          input name="rgb5" type="text" /
+          br/
+      .action
+        button.submit-palette submit
+  
